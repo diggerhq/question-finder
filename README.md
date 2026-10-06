@@ -1,4 +1,4 @@
-# Question Finder
+# PromptScout
 
 Find queries your search competitors rank for and turn them into source-checked content briefs. Run once, or enable weekly research in your own OpenComputer workspace.
 
