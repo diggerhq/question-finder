@@ -1,0 +1,15 @@
+schema = 1
+
+[template]
+name = "Question Finder"
+description = "Find competitor ranking queries and turn them into source-checked content briefs. Enable weekly research in your own workspace."
+default_project_name = "question-finder"
+
+[template.first_run]
+agent = "question-finder"
+prompt = "Introduce Question Finder briefly and ask for my website URL. Explain that I can analyze it once, then say enable weekly followed by my domain for recurring research. Do not research or enable monitoring until I provide a URL."
+
+[template.secrets.OPENSEO_API_KEY]
+description = "Your OpenSEO API key. Research uses credits from your OpenSEO account."
+documentation = "https://app.openseo.so/settings"
+required = true

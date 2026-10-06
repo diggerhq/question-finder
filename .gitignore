@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.opencomputer/
+.env
+.env.local
+opencomputer/.env.local
+.dev.vars
+.secrets.json
+.wrangler/

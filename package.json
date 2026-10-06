@@ -1,0 +1,24 @@
+{
+  "name": "seo-question-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "deploy": "opencomputer deploy",
+    "session": "opencomputer session"
+  },
+  "dependencies": {
+    "@opencomputer/agent": "0.9.0"
+  },
+  "devDependencies": {
+    "@opencomputer/cli": "0.7.16",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
